@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: gray;
+}
+
+.form-section{
+    width: 100%;
+    padding: 100px 0px;
+
+}
+
+
+.main-box{
+    width: 60%;
+    margin: auto;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.main-box .left{
+    margin-right: 20px;
+}
+
+.main-box .left img{
+    width: 100%;
+    height: auto;
+}
+
+.main-box .right{
+    margin-left: 20px;
+} 
+
+.main-box .right h2{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+    
+}
+
+
+.main-box .right input{
+    width: 100%;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.main-box .right input:focus{
+   border: none;
+   outline: none;
+   border-bottom: 1px solid #000;
+}
+
+.main-box .right input::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-box .right select{
+    width: 100%;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: 'Poppins', sans-serif;
+}
+.main-box .right select option{
+    
+}
+
+.main-box .right select:focus{
+    border: none;
+   outline: none;
+   border-bottom: 1px solid #000;
+}
+
+.main-box .right .name input{
+    width: 48%;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.main-box .right .name .fist-name{
+    margin-right: 8px;
+}
+
+.main-box .right .btn button{
+    padding: 10px 30px;
+    background: #33323d;
+    color: #e6dcdc;
+    margin-top: 80px;
+    
+}
+
+
+
+
+
+
+
